@@ -1,0 +1,31 @@
+{
+    "name": "monim67/laravel-password-update",
+    "description": "Laravel user password change/update with password-update event.",
+    "keywords": ["laravel","password-update","password-change"],
+    "homepage": "https://github.com/monim67/laravel-password-update",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Munim Munna",
+            "email": "6266677+monim67@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monim67\\LaravelPasswordUpdate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Monim67\\LaravelPasswordUpdate\\ServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPasswordUpdate": "Monim67\\LaravelPasswordUpdate\\LaravelPasswordUpdate"
+            }
+        }
+    }
+}
