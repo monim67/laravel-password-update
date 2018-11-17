@@ -7,7 +7,7 @@ password-update forms in Bootstrap 3 and Bootstrap 4 layouts which can be added 
 laravel project with just a single line of code.
 
 
-# Getting Started
+## Getting Started
 
 Install the package via composer.
 
@@ -59,7 +59,7 @@ write controller actions. Run the development server and visit
 `http://localhost:8000/password/edit` to see it in action.
 
 
-# Other Form Layouts 
+## Other Form Layouts 
 
 This package includes horizontal and vertical forms for Bootstrap 3 and Bootstrap 4.
 You can use any of the following options. You can even use your own markup instead.
@@ -75,11 +75,11 @@ the existing pages ie the profile page or account settings page. Then include on
 route to your `web.php` and include the password-update form in the page of your choice.
 
 
-# Password Update Event
+## Password Update Event
 
 When user updated the password `Monim67\LaravelPasswordUpdate\Events\PasswordUpdate` event
 is emitted, you can subscribe to the event or add listeners to it, if you want to send e-mail
 notifications to the user when their password updates.
 
 
-[routes-image]: https://raw.githubusercontent.com/monim67/perspective-vue/master/.github/images/routes.png
+[routes-image]: https://raw.githubusercontent.com/monim67/laravel-password-update/d770a82e22d5d3fb464e6ce2ed56496ff7457655/.github/images/routes.png
